@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index" }],
+  "functions": {
+    "api/index.py": { "includeFiles": "model/**", "maxDuration": 30, "memory": 1024 }
+  }
+}

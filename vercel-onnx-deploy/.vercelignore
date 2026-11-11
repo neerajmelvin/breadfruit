@@ -1,0 +1,23 @@
+# Keep the Vercel upload small: only api/, public/, model/, requirements.txt, vercel.json are needed
+3dataset
+Breadfruit_Dataset
+augmented_dataset
+bread fruit
+breadfruit_classifier
+breadfruit_model
+breadfruit_pipeline
+frontend
+labeling_tool
+originals_for_labeling
+output images
+streamlit_app
+*.md
+*.ipynb
+*.csv
+*.zip
+*.sh
+app.py
+breadfruit_augmentation.py
+data_augmentation_pipeline.py
+prepare_training_dataset.py
+scripts
